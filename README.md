@@ -11,10 +11,14 @@ of native code.
 
 To run the code using the Python implementation, you will need pygame. To 
 run the code using the native implementation, you will have to have a C
-build environment available (preferrably on an UNIX environment). Run the
+build system available (preferrably on an UNIX environment). Run the
 Makefile script to compile the shared library.
 
 To execute the script, just run mandelbrot.py. By default, the script 
 attempts to run the native version. Change the native_comp variable to False
 to switch to the Python version.
+
+If successful, you should get and image like this, along with the compute time printed in the standard output.
+
+![ScreenShot](https://raw.github.com/alesegovia/mandelbrot/master/out.png)
 
