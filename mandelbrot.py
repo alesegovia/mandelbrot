@@ -120,7 +120,7 @@ def main():
 	time_str = "Time: %f secs" % ((tf - t0)/1000.0)
 	print time_str
 	pygame.display.set_caption(time_str)
-	pygame.display.set_caption("Conjunto de Mandelbrot")
+	pygame.display.set_caption("Mandelbrot Set")
 
 	for i in xrange(w):
 		for j in range(h):
